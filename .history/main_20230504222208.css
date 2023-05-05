@@ -1,0 +1,44 @@
+body{
+  background-image: url("https://wallpapercave.com/wp/oHHIhSO.jpg");
+}
+
+.
+
+#welcome{
+  display: flex;
+  justify-content: center;
+  margin-left: 35%;
+  
+}
+
+.House-btn{
+  display:flex;
+  width: 20%;
+  flex-grow: 1;
+  flex-shrink: 1;
+  
+}
+
+#app{
+  display: flex;
+}
+
+.welcomeCard{
+  border-radius: 20px;
+}
+
+#expelled{
+  display: flex;
+  justify-content: space-between;
+}
+
+#army{
+  color:green;
+  justify-content: center;
+  display: flex;
+}
+
+#baddie-card{
+  display: flex;
+  justify-content: space-between;
+}

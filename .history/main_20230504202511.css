@@ -1,0 +1,41 @@
+body{
+  background-image: url("https://wallpapertag.com/wallpaper/full/5/e/2/398438-magic-background-3000x1688-for-iphone-5.jpg");
+}
+
+.card-footer{
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  background: rgb(240, 238, 230);
+  align-items: center;
+  font-size: 30px;
+}
+
+.welcome{
+  display: flex;
+  justify-content: center;
+  
+}
+
+.House-btn{
+  display:flex;
+  width: 20%;
+  flex-grow: 1;
+  flex-shrink: 1;
+  
+}
+
+.welcomeCard{
+  border-radius: 20px;
+}
+
+#expelled{
+  display: flex;
+  justify-content: space-between;
+}
+
+#army{
+  color:green;
+  justify-content: center
+  ;
+}

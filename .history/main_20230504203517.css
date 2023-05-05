@@ -1,0 +1,42 @@
+body{
+  background-image: url("https://th.bing.com/th/id/OIP.csirsKJdJguJvS8OPCWIHgHaFH?pid=ImgDet&rs=1");
+}
+
+
+#welcome{
+  display: flex;
+  justify-content: center;
+  
+}
+
+.House-btn{
+  display:flex;
+  width: 20%;
+  flex-grow: 1;
+  flex-shrink: 1;
+  
+}
+
+#app{
+  display: flex;
+}
+
+.welcomeCard{
+  border-radius: 20px;
+}
+
+#expelled{
+  display: flex;
+  justify-content: space-between;
+}
+
+#army{
+  color:green;
+  justify-content: center;
+  display: flex;
+}
+
+#baddie-card{
+  display: flex;
+  justify-content: space-between;
+}

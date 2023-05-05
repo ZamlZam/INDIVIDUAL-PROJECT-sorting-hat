@@ -1,0 +1,43 @@
+body{
+  background-image: url("https://static.vecteezy.com/system/resources/previews/002/056/669/large_2x/magic-wand-with-a-stars-with-sparkle-on-black-background-trace-of-gold-dust-magic-abstract-background-isolated-miracle-and-magic-illustration-flat-design-vector.jpg");
+}
+
+
+#welcome{
+  display: flex;
+  justify-content: center;
+  marg
+  
+}
+
+.House-btn{
+  display:flex;
+  width: 20%;
+  flex-grow: 1;
+  flex-shrink: 1;
+  
+}
+
+#app{
+  display: flex;
+}
+
+.welcomeCard{
+  border-radius: 20px;
+}
+
+#expelled{
+  display: flex;
+  justify-content: space-between;
+}
+
+#army{
+  color:green;
+  justify-content: center;
+  display: flex;
+}
+
+#baddie-card{
+  display: flex;
+  justify-content: space-between;
+}

@@ -120,7 +120,7 @@ const cardsOnDom = (array) =>{
   let domString ="";
 for (const user of array){ 
   domString += `<div class="card" id="user-card" style="width: 18rem;" >
-     <img class="card-img-top" src="${user.imagUrl}" alt="Card image cap">    
+     <img class="card-img-top" src="${user.imgUrl}" alt="Card image cap">    
       <div class="body">
       <h5 class="card-title">House: ${user.house}</h5>
       <p class= "card-txt">${user.name}</p>
@@ -150,7 +150,7 @@ button.addEventListener('click', (e) => {
 //expel
 const expelCards = (array) =>{
   let domString ="";
-  for (const user of array) ()=> {
+  for (const user of array){
     domString+= `<div class="card" id="baddie-card" style="width: 18rem;" >
     <img class ="card-img-top" src="${user.imgUrl}" alt="card image cap">
       <div class="body">

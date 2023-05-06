@@ -50,6 +50,7 @@ const filter =(array, typeString)=> {
   return housesArray;
 }
 
+const showSortButton= document.querySelector('#sort');
 const allButton = document.querySelector('#all');
 const showSlytherinButton = document.querySelector('#one');
 const showRavenclawButton = document.querySelector('#two');
@@ -59,6 +60,7 @@ const showGryffindorButton = document.querySelector('#four');
 allButton.addEventListener('click', () => {
   cardsOnDom(students);
 })
+
 
 //Add click event to show  on button click using the function we created above
 showSlytherinButton.addEventListener('click', () => {
@@ -88,6 +90,14 @@ cardsOnDom(houseType4);
 alert("click");
 
 });
+
+// showSortButton.addEventListener('click', () => {
+//   const sorting = filter(students, newUserObj.house);
+//   cardsOnDom(sorting);
+//   alert("click");
+  
+//   });
+  
 const form = document.querySelector('form');
 
 const createUser = (e) =>{
@@ -96,14 +106,13 @@ const createUser = (e) =>{
   const random = Math.floor(Math.random() * 4);
 
    const newUserObj ={
-    id: students.length +1,
+    id: students.length + 1,
     name: document.querySelector('#name').value,
     house: houses[random],
     imgUrl: "https://wallpapercave.com/wp/wp2182833.jpg"
 
    }
-   
-  students.push(newUserObj);
+     students.push(newUserObj);
   cardsOnDom(students);
   form.reset();
 }
@@ -120,7 +129,7 @@ const cardsOnDom = (array) =>{
   let domString ="";
 for (const user of array){ 
   domString += `<div class="card" id="user-card" style="width: 18rem;" >
-     <img class="card-img-top" src="${user.imgUrl}" alt="Card image cap">    
+     <img class="card-img-top" src="${user.imgUrl}" alt="Card image cap" style="width: 18rem;">    
       <div class="body">
       <h5 class="card-title">House: ${user.house}</h5>
       <p class= "card-txt">${user.name}</p>
@@ -152,7 +161,7 @@ const expelCards = (array) =>{
   let domString ="";
   for (const user of array){
     domString+= `<div class="card" id="baddie-card" style="width: 18rem;" >
-    <img class ="card-img-top" src="${user.imgUrl}" alt="card image cap">
+    <img class ="card-img-top" src="${user.imgUrl}" alt="card image cap" style="width: 18rem;">
       <div class="body">
       <h5 class="card-title">${user.name}</h5>
       <p class= "card-txt"> Voldamort's Army </p>

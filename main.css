@@ -1,0 +1,87 @@
+body{
+  background-color: goldenrod;
+}
+
+.card-img-top{
+  width: 600px;
+  justify-content: center;
+}
+
+.modal-header{
+  display: flex;
+  justify-content: center;
+}
+.modal-body{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 2%;
+}
+ /* .form-group{
+  justify-content: center;
+ } */
+#welcome{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: 35%;
+  
+}
+
+.house-btn{
+  display:flex;
+  width: 30%;
+  margin-left: 40%;
+  justify-content: space-around;
+  flex-grow: 1;
+  flex-shrink: 1;
+  
+}
+
+#app{
+  display: flex;
+  padding: 15px;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+
+#user-card{
+  display: flex;
+  flex-wrap: wrap;
+  order: 2;
+  width: 30%;
+  height: 20%;
+  padding: auto;
+  justify-content: flex-start;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+#expelled{
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+#baddies{
+  background-color:black;
+  color:green;
+  border-radius: 200px;
+  font-size: large;
+  justify-content: center;
+  display: flex;
+  height: 40px;
+}
+
+.voldamort{
+  display: flex;
+  flex-direction:row;
+  justify-content: space-between;
+  padding: 2%;
+}
+
+#baddie-card{
+  display: flex;
+  justify-content: space-between;
+  height: 40%;
+}

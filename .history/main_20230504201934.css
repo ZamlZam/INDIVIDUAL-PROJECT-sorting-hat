@@ -1,0 +1,50 @@
+body{
+  background-image: url("https://wallpapertag.com/wallpaper/full/5/e/2/398438-magic-background-3000x1688-for-iphone-5.jpg");
+}
+
+.card-footer{
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  background: rgb(240, 238, 230);
+  align-items: center;
+  font-size: 30px;
+}
+
+.welcome{
+  display: flex;
+  justify-content: center;
+  
+}
+
+.House-btn{
+  display:flex
+  width: 100px;
+  flex-grow: 1;
+  flex-shrink: 1;
+  
+}
+
+.one{
+  background-color: green;
+  color: #0f0f0f;
+}
+
+.two{
+  background-color: blue;
+  color: #946B2D;
+}
+
+.three{
+  background-color: gold;
+  color: #60605C;
+}
+
+.four{
+  background-color: #740001;
+  color: #D3A625;
+}
+
+.row{
+  display: flex;
+} 

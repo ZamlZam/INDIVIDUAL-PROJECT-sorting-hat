@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel ="stylesheet" href="main.css">
+</head>
+<body>
+
+  <div class="welcomeCard" style="width: 18rem;">
+    <img class="card-img-top" src="https://th.bing.com/th/id/OIP.xY0bszogMta38PzS355gcAHaFz?pid=ImgDet&rs=1" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+       <button type="button" class="start" data-bs-toggle="modal" data-bs-targe="modalExample">SORTING HAT</button>   
+    </div>
+  </div>
+   
+
+  <div class="modal" id="modalExample" tabindex="-1" aria-labelledby="modalExampleLable" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title" id="modalExampleLable">SORTING HAT</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+        </div>
+          
+  </div>
+      <div class="modal-body">
+        <form>
+          <div id="userInput">
+              <input type="text" class="form-control" id="name" aria-describedby="Name" placeholder="Name">
+          </div>
+          <button type="sort" class="btn btn-primary" id="sort" data>SORT</button>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+ 
+   
+
+ <!-- user input form-->
+  
+
+      <!-- <div class="flex-container"> -->
+      <div class="House-btn">
+        <button type="button" class= "btn btn-outline-dark" id ='all'>All</button>
+        <button type="button" class= "btn btn-outline-dark" id ='one'>Slytherin</button>
+        <button type="button" class="btn btn-outline-dark" id ='two'>Ravenclaw</button>
+        <button type="button" class="btn btn-outline-dark" id = 'three'>Hufflepuff</button>
+        <button type="button" class="btn btn-outline-dark" id="four">Gryffindor</button>
+      </div>
+    </div>
+
+    <div id="app"></div>
+    <div id ="expelled"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+
+    
+</body>
+</html>
